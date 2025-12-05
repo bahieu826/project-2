@@ -421,7 +421,6 @@ line-height: 26px; /* 185.714% */
     display: flex;
     align-items: center;
     justify-content: center;
-  background-color: #575f66;
 }
 .install__inner{
     width: 1170px;
@@ -433,7 +432,6 @@ align-items: center;
 justify-content: space-between;
 padding: 0 70px;
 position: relative;
-min-height: 427px;
 }
 .install__img{
     position: absolute;
@@ -441,7 +439,6 @@ min-height: 427px;
 height: 522px;
 object-fit: cover;
 bottom: 0px;
-left: 0;
 }
 
 .install__heading{
