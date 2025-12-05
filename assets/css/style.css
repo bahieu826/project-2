@@ -416,4 +416,140 @@ font-style: normal;
 font-weight: 300;
 line-height: 26px; /* 185.714% */
 }
+/* install */
+.install{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  background-color: #575f66;
+}
+.install__inner{
+    width: 1170px;
+height: 427px;
+border-radius: 4px;
+background: #2E80CE;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 70px;
+position: relative;
+min-height: 427px;
+}
+.install__img{
+    position: absolute;
+    width: 284px;
+height: 522px;
+object-fit: cover;
+bottom: 0px;
+left: 0;
+}
 
+.install__heading{
+    color: #FFF;
+font-family: Sora;
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+line-height: 60px; /* 120% */
+letter-spacing: -1px;
+width: 489px;
+text-align: start;
+}
+.install__desc{
+    color: #FFF;
+font-family: Sora;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 166.667% */
+width: 586px;
+margin-top: 18px;
+}
+.install__row{
+    display: flex;
+    margin-top: 38px;
+gap: 38px;
+}
+/* block */
+.blog{
+    margin-top: 100px;
+    padding: 70px ;
+}
+.blog__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 130px;
+}
+.blog__content--heading{
+    color: #10375C;
+font-family: Sora;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 60px; /* 120% */
+letter-spacing: -1px;
+margin-top: 68px;
+text-align: start;
+width: 470px;
+height: 120px;
+}
+.blog__thumb{
+  color: #10375C;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; /* 155.556% */
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;  
+}
+.blog__control{
+    display: flex;
+    justify-content: flex-start;
+}
+.blog__list{
+    display: flex;
+    gap: 30px;
+}
+.blog__list--item{
+    width: 270px;
+height: 375px;
+border-radius: 12px;
+background: #FFF;
+box-shadow: 0 18px 50px 0 rgba(0, 0, 0, 0.05);
+}
+.blog__heading{
+    color: #10375C;
+font-family: Sora;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 162.5% */
+width: 224px;
+margin-top: 18px;
+text-align: start;
+}
+.blog__desc{
+    color: #575F66;
+font-family: Sora;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 24px; /* 171.429% */
+margin-top: 10px;
+width: 226px;
+text-align: start;
+margin: 0px;
+}
+.blog__list--content{
+    padding: 12px;
+}
+.blog__item--more{
+    margin-top: 12px;
+    text-align: start;
+}
